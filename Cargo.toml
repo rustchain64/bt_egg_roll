@@ -1,0 +1,15 @@
+[package]
+name = "bitcoin-rollup"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+
+# Specify compatible versions for bellman and its dependencies
+bellman = "0.14.0"
+ff = "0.9"
+paired = "0.21.0"
+rand = "0.8"
+bitvec = "1.0.0"
+funty = "1.2"
